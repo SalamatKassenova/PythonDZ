@@ -19,7 +19,7 @@ elif k>sum:
     flag = False
     print('в вашем шоколаде нет столько долек, купите еще шоколада')  
 while flag:
-    if (k<sum and k%i == 0 and k>=i) or (k<sum and k%x == 0 and k>=x) :
+    if (k%i == 0 and k>=i) or (k%x == 0 and k>=x) :
         flag = False
         print('yes')
     else:
