@@ -7,11 +7,13 @@ k = int(input('Сколько долек вы хотите получить за
 flag = True
 if n<m:
     i=n
+    x=m
 else:
     i=m
+    x=n
 sum = int(n*m)
 while flag:
-    if k%i == 0 and k>=i:
+    if (k%i == 0 and k>=i) or (k%x == 0 and k>=x):
         flag = False
         print('yes')
     else:
