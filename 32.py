@@ -13,3 +13,4 @@ max = int(input("Введите максимальное значение: "))
 
 result = listIndexes(array, min, max)
 print(result)
+
